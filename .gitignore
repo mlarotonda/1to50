@@ -5,9 +5,7 @@ reports/
 */build/
 */.idea/
 */.allure/
-*/.gradle/
 *build/
 *.idea/
 *.allure/
-*.gradle/
 */chromedriver.exe
