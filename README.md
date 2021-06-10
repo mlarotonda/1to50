@@ -5,7 +5,7 @@
 - Instrucciones para ejecutar:
 
   1) Clonar el repositorio
-  2) Descargar Chromedriver segun la version de tu navegador en: https://chromedriver.chromium.org/
+  2) Descargar Chromedriver segun la version de tu navegador en: https://chromedriver.chromium.org/ y pegarlo en la carpeta driver
   3) Si es que no lo tenes, instalar Gradle: <br>
       &nbsp; $ sdk install gradle
   4) Dentro de la carpeta del proyecto, ejecutar el comando: <br>
