@@ -1,0 +1,1 @@
+Descarga tu version del chromedriver  en https://chromedriver.chromium.org/ y pegala en esta carpeta
