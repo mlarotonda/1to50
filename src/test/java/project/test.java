@@ -8,6 +8,7 @@ public class test extends config {
     WebElement element [] = new WebElement[26];
     String templateElemento = "//div[@id='grid']/div[text()='%d']";
     String resultado = "//div[@class='resultContent']/strong[@class='level']";
+    String testcompleted = "//a[@id='resultLink']";
     int i;
 
     @Test
@@ -15,8 +16,11 @@ public class test extends config {
         encontrarPrimeros25Elementos();
         clickPrimeros25Elementos();
         clickUltimos25Elementos();
-        System.out.println("Tiempo final: " + driver.findElement(By.xpath(resultado)).getText());
 
+        espera(1);
+        driver.navigate().back();
+        driver.findElement(By.xpath(testcompleted)).click();
+        System.out.println("Tiempo final: " + driver.findElement(By.xpath(resultado)).getText());
         espera(2);
         driver.quit();
     }
