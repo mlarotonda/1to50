@@ -12,4 +12,4 @@
       &nbsp; $ ./gradlew AllTest
       
   <br>
-Mi tiempo record! &nbsp; <img align="center" src="https://user-images.githubusercontent.com/44264654/121452037-17a55580-c975-11eb-921a-e0926e4f39a6.png" height=25% width=25% />
+Mi tiempo record! &nbsp; <img align="center" src="https://user-images.githubusercontent.com/44264654/121574111-50d4d880-c9fc-11eb-8596-2e1555bdec0c.png" height=20% width=20% />
