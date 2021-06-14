@@ -27,9 +27,7 @@ public class test extends config {
     }
 
     private void encontrarPrimeros25Elementos(){
-        for (i=1; i<26;i++) {
-            element[i] = grid.findElement(By.xpath(String.format(templateElemento,100-i)));
-        }
+        for (i=1; i<26;i++) { element[i] = grid.findElement(By.xpath(String.format(templateElemento,100-i))); }
         espera(1);
     }
 
@@ -38,8 +36,6 @@ public class test extends config {
     }
 
     private void clickUltimos25Elementos(){
-        for (i=26; i<51;i++) {
-            grid.findElement(By.xpath(String.format(templateElemento,100-i))).click();
-        }
+        for (i=26; i<51;i++) { grid.findElement(By.xpath(String.format(templateElemento,100-i))).click(); }
     }
 }
