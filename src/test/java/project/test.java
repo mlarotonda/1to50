@@ -6,7 +6,8 @@ import org.openqa.selenium.WebElement;
 
 public class test extends config {
     WebElement element [] = new WebElement[26];
-    String templateElemento = "//div[@id='grid']/div[text()='%d']";
+    WebElement grid = driver.findElement(By.id("grid"));
+    String templateElemento = "//span[@style='z-index:%d']/./..";
     String resultado = "//div[@class='resultContent']/strong[@class='level']";
     String testcompleted = "//a[@id='resultLink']";
     int i;
@@ -27,7 +28,7 @@ public class test extends config {
 
     private void encontrarPrimeros25Elementos(){
         for (i=1; i<26;i++) {
-            element[i] =driver.findElement(By.xpath(String.format(templateElemento,i)));
+            element[i] = grid.findElement(By.xpath(String.format(templateElemento,100-i)));
         }
         espera(1);
     }
@@ -38,7 +39,7 @@ public class test extends config {
 
     private void clickUltimos25Elementos(){
         for (i=26; i<51;i++) {
-            driver.findElement(By.xpath(String.format(templateElemento,i))).click();
+            grid.findElement(By.xpath(String.format(templateElemento,100-i))).click();
         }
     }
 }
