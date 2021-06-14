@@ -9,3 +9,5 @@ reports/
 *.idea/
 *.allure/
 */chromedriver.exe
+*/.gradle/
+.gradle/
