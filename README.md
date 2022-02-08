@@ -1,13 +1,13 @@
 # Automatización del juego 1to50
 
 - Link del juego: http://zzzscore.com/1to50/en/
-- Hecho con Selenium+Java+Gradle+JUnit para Chrome
+- Proyecto Gradle hecho con Selenium+Java+JUnit para Chrome
 - Instrucciones para ejecutar:
 
   1) Clonar el repositorio
   2) Descargar Chromedriver segun la version de tu navegador en: https://chromedriver.chromium.org/ y pegarlo en la carpeta driver
   3) Si es que no lo tenes, instalar Gradle: <br>
-      &nbsp; $ sdk install gradle
+      https://gradle.org/install/
   4) Dentro de la carpeta del proyecto, ejecutar el comando: <br>
       &nbsp; $ ./gradlew AllTest
       
